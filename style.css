@@ -93,6 +93,7 @@ h1{
 .sCard{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     background-color: wheat;
     width: 260px;
     height: 200px;
