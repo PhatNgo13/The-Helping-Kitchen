@@ -73,3 +73,60 @@ footer a{
 footer :hover{
     color: white;
 }
+
+/* ABOUT US */
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px auto 50px;
+}
+
+.container{
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    flex-wrap: wrap;
+}
+
+.sCard{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: wheat;
+    width: 260px;
+    height: 200px;
+    margin: 25px 50px 0;
+    border-radius: 20px;
+}
+
+.sCard h2{
+    margin:  15px 5px 0px 20px;
+    color: #2C3639;
+}
+
+.sCard p{
+    margin:  15px 10px;
+    color: #2C3639;
+}
+
+.bCard{
+    background-color: wheat;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    height: 400px;
+    flex-wrap: wrap;
+    width: 1350px;
+    margin-bottom: 60px;
+}
+
+.bCard h1{
+    margin:  40px 50px 30px;
+    color: #2C3639;
+}
+
+.bCard p{
+    margin:  10px 50px 20px;
+    color: #2C3639;
+}
