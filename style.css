@@ -39,6 +39,7 @@ nav a{
 }
 
 nav a:hover{
+    color: #051f20;
     background-color: #daf1de;
     padding: 15px 80px;
     border-radius: 30px;
@@ -49,6 +50,18 @@ nav .active{
     background-color: #163832;
     border-radius: 30px;
     padding: 15px 80px;
+}
+
+@media (max-width: 767px){
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+	}
+    
+    nav li{
+        padding: 15px;
+    }
 }
 
 /* FOOTER */
