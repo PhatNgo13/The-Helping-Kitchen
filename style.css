@@ -1,6 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 /* NAV BAR */
@@ -15,11 +17,11 @@ nav{
     pointer-events: none;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: flex-;
+    justify-content: flex-start;
     color: #DCD7C9;
 }
 nav ul{
-    background-color: wheat;
+    background-color: #8eb698;
     padding: 30px 0;
     list-style: none;
     display: flex;
@@ -39,16 +41,29 @@ nav a{
 }
 
 nav a:hover{
-    background-color: white;
+    color: #051f20;
+    background-color: #daf1de;
     padding: 15px 80px;
     border-radius: 30px;
 }
 
 nav .active{
-    color: black;
-    background-color: antiquewhite;
+    color: #daf1de;
+    background-color: #163832;
     border-radius: 30px;
     padding: 15px 80px;
+}
+
+@media (max-width: 767px){
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+	}
+    
+    nav li{
+        padding: 15px;
+    }
 }
 
 /* FOOTER */
@@ -56,7 +71,7 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: wheat;
+    background-color: #8eb698;
     text-align: center;
 }
 
@@ -71,5 +86,71 @@ footer a{
 }
 
 footer :hover{
-    color: white;
+    color: #daf1de;
+}
+
+/* ABOUT US */
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 0px auto 0px; */
+    padding: 50px;
+    color: #235347;
+    background-color: #051f20;
+}
+
+.container{
+    background-color: #051f20;
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    flex-wrap: wrap;
+}
+
+.sCard{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #8eb698;
+    width: 260px;
+    height: 200px;
+    margin: 25px 50px 0;
+    border-radius: 20px;
+}
+
+.sCard h2{
+    margin:  15px 5px 0px 20px;
+    color: #2C3639;
+}
+
+.sCard p{
+    margin:  15px 10px;
+    color: #2C3639;
+}
+
+.bCard{
+    background-color: #8eb698;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    height: 400px;
+    flex-wrap: wrap;
+    width: 1350px;
+    margin-bottom: 60px;
+}
+
+.bCard h1{
+    font-size: xxx-large;
+    margin:  40px 50px 10px;
+    padding: 10px;
+    color: #2C3639;
+    background-color: transparent;
+}
+
+.bCard p{
+    font-size: large;
+    margin:  0 50px 20px;
+    padding: 0 10px 10px;
+    color: #2C3639;
 }
