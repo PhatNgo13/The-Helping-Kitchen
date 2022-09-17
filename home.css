@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
 body, html {
     background: #235347;
     color: #235347;
     height: 100%;
-    font-family: "Inconsolata", sans-serif;
+    font-family: 'Lato', sans-serif;
   }
   
   .bgimg {
@@ -11,9 +13,11 @@ body, html {
     background-image: url("https://www.nycfoodpolicy.org/wp-content/uploads/2019/05/3-22-19-Food-Line2-copy.jpg");
     min-height: 75%;
   }
+  
 
   @media only screen and (max-width: 1000px) {
     body {
       background-color: #235347;
     }
   }
+  
