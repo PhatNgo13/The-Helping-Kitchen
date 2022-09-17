@@ -74,6 +74,9 @@ nav .active {
 body{
     display:flex; 
     flex-direction:column; 
+
+    background: rgb(142,182,152);
+    background: linear-gradient(52deg, rgba(142,182,152,1) 0%, rgba(5,31,32,1) 27%);
 }
 .gird-container {
     display: flex;
@@ -84,14 +87,14 @@ body{
 .column {
     height: 300px;
     width: 300px;
-    background-color: #d58754;
+    background-color: #8eb698;
     padding: 20px;
     border-radius: 30px;
     margin: 10px;
 }
 
 .card-image {
-    height: 200px;
+    height: 159px;
     width: 200px;
     border-radius: 50%;
 }
