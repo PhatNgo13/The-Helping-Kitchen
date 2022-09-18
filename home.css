@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+body, html {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://www.nycfoodpolicy.org/wp-content/uploads/2019/05/3-22-19-Food-Line2-copy.jpg");
+    min-height: 75%;
+  }
+  
+
+  @media only screen and (max-width: 1000px) {
+    body {
+      background-color: #235347;
+    }
+  }
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV BAR */
+nav{
+    width: auto;
+}
+
+.about {
+  color: #235347;
+}
+
+.wname{
+    font-size: larger;
+    margin: 0 20px 0 0;
+    padding-left: 10px;
+    pointer-events: none;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    color: #DCD7C9;
+}
+nav ul{
+    background-color: #8eb698;
+    padding: 30px 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0;
+    text-align: right;
+}
+
+nav a{
+    padding: 15px 80px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: #051f20;
+    background-color: #daf1de;
+    padding: 15px 80px;
+    border-radius: 30px;
+}
+
+nav .active{
+    color: #daf1de;
+    background-color: #163832;
+    border-radius: 30px;
+    padding: 15px 80px;
+}
+
+@media (max-width: 767px){
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+	}
+    
+    nav li{
+        padding: 15px;
+    }
+}
+
+/* FOOTER */
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8eb698;
+    text-align: center;
+}
+
+footer a{
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: xx-large;
+    color: inherit;
+    line-height: 38px;
+    display: inline-block;
+    margin: 50px;
+}
+
+footer :hover{
+    color: #daf1de;
+}
+
+/* ABOUT US */
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 0px auto 0px; */
+    padding: 50px;
+    color: #235347;
+    background-color: #051f20;
+}
+
+.container{
+    background-color: #051f20;
+    display: flex;
+    justify-content: center;
+    height: max-content;
+    flex-wrap: wrap;
+}
+
+.sCard{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #8eb698;
+    width: 260px;
+    height: 200px;
+    margin: 25px 50px 0;
+    border-radius: 20px;
+}
+
+.sCard h2{
+    margin:  15px 5px 0px 20px;
+    color: #2C3639;
+}
+
+.sCard p{
+    margin:  15px 10px;
+    color: #2C3639;
+}
+
+.bCard{
+    background-color: #8eb698;
+    border-radius: 30px;
+    display: flex;
+    justify-content: flex-start;
+    height: 400px;
+    flex-wrap: wrap;
+    width: 1350px;
+    margin-bottom: 60px;
+}
+
+.bCard h1{
+    margin:  40px 50px 10px;
+    padding: 10px;
+    color: #2C3639;
+    background-color: transparent;
+}
+
+.bCard p{
+    margin:  0 50px 20px;
+    padding: 0 10px 10px;
+    color: #2C3639;
+}
