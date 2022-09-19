@@ -3,6 +3,7 @@
 body, html {
     height: 100%;
     font-family: 'Lato', sans-serif;
+    
   }
   
   .bgimg {
@@ -101,10 +102,11 @@ footer a{
     text-align: center;
     padding-bottom: 5px;
     font-size: xx-large;
-    color: inherit;
+    color: black;
     line-height: 38px;
     display: inline-block;
     margin: 50px;
+    text-decoration:none;
 }
 
 footer :hover{
